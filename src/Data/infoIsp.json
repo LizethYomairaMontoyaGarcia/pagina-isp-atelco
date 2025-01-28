@@ -1,0 +1,382 @@
+{
+  "coverage": [
+    {
+      "id": 1,
+      "municipality": "Vegachí",
+      "zones": "Búcaros, Puerto Nuevo, Salida la Llana, Las Palmas, La Esperanza, El Centro, El Sitio, Hawai, La Planta, La Cancha, La Variante, El Caño, Departamento, Prado, Mónaco, Sierra Baja, Paz 1, Paz 2, Trapiche, Bello Horizonte, Altos de la Vega, Villa Milagros, Casa Viva,  Santa Emma"
+    }
+  ],
+  "televisionChannels": [
+    {
+      "id": 1,
+      "imgTv": "https://i.pinimg.com/564x/02/32/b5/0232b50432fd7bda6d5c37c5f5961dcc.jpg",
+      "nameTv": "DISCOVERYKIDS",
+      "CanalTv": "2"
+    },
+    {
+      "id": 2,
+      "imgTv": "https://i.pinimg.com/564x/0d/b6/09/0db609ba45d5e78bf39f912789dc00e7.jpg",
+      "nameTv": "TOONCAST",
+      "CanalTv": "3"
+    },
+    {
+      "id": 3,
+      "imgTv": "https://i.pinimg.com/564x/0b/ea/ab/0beaab3d397485e6ff1fa1117d3f642d.jpg",
+      "nameTv": "CANAL1",
+      "CanalTv": "4"
+    },
+    {
+      "id": 4,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Teleantioquia.png",
+      "nameTv": "TELEANTIOQUIA",
+      "CanalTv": "5"
+    },
+    {
+      "id": 5,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Logotipo_de_Telemedell%C3%ADn.png",
+      "nameTv": "TELEMEDELLÍN",
+      "CanalTv": "6"
+    },
+    {
+      "id": 6,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Se%C3%B1al_Colombia_logo.svg/1200px-Se%C3%B1al_Colombia_logo.svg.png",
+      "nameTv": "SEÑAL COLOMBIA",
+      "CanalTv": "7"
+    },
+    {
+      "id": 7,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Canal_RCN_logo_%282%29.svg/640px-Canal_RCN_logo_%282%29.svg.png",
+      "nameTv": "RCN",
+      "CanalTv": "8"
+    },
+    {
+      "id": 8,
+      "imgTv": "https://mms.img.susercontent.com/c7305a150f97564df34d9526c72338bb",
+      "nameTv": "ASOTV",
+      "CanalTv": "9"
+    },
+    {
+      "id": 9,
+      "imgTv": "https://d1.awsstatic.com/case-studies/Latam%20Cases%20Assets/CaracolTV_LOGO.8c809bee8fb041fde85fd103087a55a427afd1a8.png",
+      "nameTv": "CARACOL",
+      "CanalTv": "10"
+    },
+    {
+      "id": 10,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2019_Disney_Channel_logo.svg",
+      "nameTv": "DISNEY CHANNEL",
+      "CanalTv": "11"
+    },
+    {
+      "id": 11,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/1200px-Discovery_Science_2017_Logo.svg.png",
+      "nameTv": "DISCOVERY SCIENCE",
+      "CanalTv": "12"
+    },
+    {
+      "id": 12,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/3/35/Disney_Junior_2019_logo.png",
+      "nameTv": "DISNEY JR",
+      "CanalTv": "13"
+    },
+    {
+      "id": 13,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/1200px-Cartoon_Network_2010_logo.svg.png",
+      "nameTv": "CARTOON NETWORK",
+      "CanalTv": "14"
+    },
+    {
+      "id": 14,
+      "imgTv": "https://logowik.com/content/uploads/images/7354-cartoonito.webp",
+      "nameTv": "CARTOONITO",
+      "CanalTv": "15"
+    },
+    {
+      "id": 15,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Discovery_Turbo_logo.svg/2560px-Discovery_Turbo_logo.svg.png",
+      "nameTv": "TURBO",
+      "CanalTv": "16"
+    },
+
+    {
+      "id": 18,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Fox_Sports_2_Logo_2022.png",
+      "nameTv": "FOX SPORT 2",
+      "CanalTv": "19"
+    },
+    {
+      "id": 19,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fox_sports_3_logo.svg/2560px-Fox_sports_3_logo.svg.png",
+      "nameTv": "FOX SPORT 3",
+      "CanalTv": "20"
+    },
+
+    {
+      "id": 23,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_-_Logo_2019.svg/2560px-Discovery_Channel_-_Logo_2019.svg.png",
+      "nameTv": "DISCOVERY CHANNEL",
+      "CanalTv": "24"
+    },
+
+    {
+      "id": 24,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1067px-2018_Animal_Planet_logo.svg.png",
+      "nameTv": "ANIMAL PLANET",
+      "CanalTv": "25"
+    },
+
+    {
+      "id": 26,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Turner_Classic_Movies_%28TCM%2C_Latin_America%29_-_2015_logo.png",
+      "nameTv": "TCM",
+      "CanalTv": "27"
+    },
+
+    {
+      "id": 27,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TLC_Logo_Germany.svg/1280px-TLC_Logo_Germany.svg.png",
+      "nameTv": "TLC DISCOVERY",
+      "CanalTv": "28"
+    },
+
+    {
+      "id": 28,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png",
+      "nameTv": "ID",
+      "CanalTv": "29"
+    },
+
+    {
+      "id": 29,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/9/90/Discovery_H%26H_Logo_2022.webp",
+      "nameTv": "H&H",
+      "CanalTv": "30"
+    },
+
+    {
+      "id": 30,
+      "imgTv": "https://img.freepik.com/vector-premium/canal-culinario-logotipo-food-tv_18099-1622.jpg",
+      "nameTv": "FOOD",
+      "CanalTv": "31"
+    },
+
+    {
+      "id": 35,
+      "imgTv": "https://mediaplan.com.gt/wp-content/uploads/2021/02/cinefamiliar.png",
+      "nameTv": "CINE FAMILIAR",
+      "CanalTv": "36"
+    },
+    {
+      "id": 36,
+      "imgTv": "https://logowik.com/content/uploads/images/space-tv7790.jpg",
+      "nameTv": "SPACE",
+      "CanalTv": "37"
+    },
+    {
+      "id": 37,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/TNT_TV_logo.svg/1200px-TNT_TV_logo.svg.png",
+      "nameTv": "TNT",
+      "CanalTv": "38"
+    },
+    {
+      "id": 38,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/6/68/Logo_TNT_Series.png",
+      "nameTv": "TNT SERIES",
+      "CanalTv": "39"
+    },
+    {
+      "id": 39,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pasiones_Tv_logo.svg/2560px-Pasiones_Tv_logo.svg.png",
+      "nameTv": "PASIONES",
+      "CanalTv": "40"
+    },
+    {
+      "id": 40,
+      "imgTv": "https://yt3.googleusercontent.com/ytc/AIdro_mrOD2yU_j2TPTPfzAxHty9WjyoNh2GiNDQSmeOYQk_Xw=s900-c-k-c0x00ffffff-no-rj",
+      "nameTv": "TELENOSTALGIA",
+      "CanalTv": "41"
+    },
+
+    {
+      "id": 41,
+      "imgTv": "https://ruralink.com.co/wp-content/uploads/2023/07/logo-rumba-tv.png",
+      "nameTv": "RUMBA TV",
+      "CanalTv": "42"
+    },
+    {
+      "id": 42,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Htv_logo.svg/1200px-Htv_logo.svg.png",
+      "nameTv": "HTV",
+      "CanalTv": "43"
+    },
+   
+    {
+      "id": 44,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ve_Plus_Logo_2019.png",
+      "nameTv": "VEPLUS",
+      "CanalTv": "45"
+    },
+    {
+      "id": 45,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Canal_TeleAmiga_logo.svg/1200px-Canal_TeleAmiga_logo.svg.png",
+      "nameTv": "TELEAMIGA",
+      "CanalTv": "46"
+    },
+    {
+      "id": 46,
+      "imgTv": "https://cdn3.f-cdn.com/contestentries/1340516/20288033/5b13ab81a35cb_thumb900.jpg",
+      "nameTv": "ZOOM",
+      "CanalTv": "47"
+    },
+    {
+      "id": 47,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Canal_capital_logo.png",
+      "nameTv": "CANAL CAPITAL",
+      "CanalTv": "48"
+    },
+    {
+      "id": 48,
+      "imgTv": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK730zC1gXpa77lK37sBZQO2nEm2ZoEJOwM4TWNsQBXA&s",
+      "nameTv": "CANAL TRECE",
+      "CanalTv": "49"
+    },
+    {
+      "id": 49,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/7/78/Canal_tro_logo.PNG",
+      "nameTv": "TRO",
+      "CanalTv": "50"
+    },
+    {
+      "id": 50,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Telecaf%C3%A9_logo.svg/2560px-Telecaf%C3%A9_logo.svg.png",
+      "nameTv": "TELECAFÉ",
+      "CanalTv": "51"
+    },
+    {
+      "id": 51,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Citytv_logo.svg/1024px-Citytv_logo.svg.png",
+      "nameTv": "CITY TV",
+      "CanalTv": "52"
+    },
+    {
+      "id": 52,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Telepac%C3%ADfico.png",
+      "nameTv": "TELEPACÍFICO",
+      "CanalTv": "53"
+    },
+    {
+      "id": 53,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/4/41/Telecaribe2017.png",
+      "nameTv": "TEL CABRIBE",
+      "CanalTv": "54"
+    },
+    {
+      "id": 54,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/d/df/Canal_Congreso_de_Colombia_logo.png",
+      "nameTv": "CANAL CONGRESO",
+      "CanalTv": "55"
+    },
+    {
+      "id": 55,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cable_Noticias_logo.svg/2560px-Cable_Noticias_logo.svg.png",
+      "nameTv": "CABLE NOTICIAS",
+      "CanalTv": "56"
+    },
+    {
+      "id": 56,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Logotipo_de_Megavisi%C3%B3n_%281999-2001%29.png",
+      "nameTv": "MEGAVISIÓN",
+      "CanalTv": "57"
+    },
+    {
+      "id": 57,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/TV_Agro_logo.svg/800px-TV_Agro_logo.svg.png",
+      "nameTv": "TV AGRO",
+      "CanalTv": "58"
+    },
+    {
+      "id": 58,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png",
+      "nameTv": "LOVE NATURE",
+      "CanalTv": "59"
+    },
+    {
+      "id": 59,
+      "imgTv": "https://i.pinimg.com/originals/1f/c7/70/1fc770600ea1123da4e00241c48c138a.png",
+      "nameTv": "TELEVID",
+      "CanalTv": "60"
+    },
+    {
+      "id": 60,
+      "imgTv": "https://cdn.worldvectorlogo.com/logos/ewtn.svg",
+      "nameTv": "EWTN",
+      "CanalTv": "61"
+    },
+    {
+      "id": 61,
+      "imgTv": "https://seeklogo.com/images/E/enlace-tv-logo-683F9F308A-seeklogo.com.png",
+      "nameTv": "ENLACE",
+      "CanalTv": "62"
+    },
+    {
+      "id": 62,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Bethel_tv.png",
+      "nameTv": "BETHEL",
+      "CanalTv": "63"
+    },
+    {
+      "id": 63,
+      "imgTv": "https://s3.us-east-1.amazonaws.com/forofms.na/monthly_2023_05/large.Teleislas-en-vivo-Online.png.15f6dbf421d7b4b26a7ceab372eb36b4.png",
+      "nameTv": "TELE ISLAS",
+      "CanalTv": "64"
+    },
+    {
+      "id": 64,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Se%C3%B1al_Institucional_logo.svg/1280px-Se%C3%B1al_Institucional_logo.svg.png",
+      "nameTv": "CANAL INSTITUCIONAL",
+      "CanalTv": "65"
+    },
+    {
+      "id": 65,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Universal_TV_Logo_2018.png",
+      "nameTv": "UNIVERSAL",
+      "CanalTv": "66"
+    },
+    {
+      "id": 66,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/1024px-Logo_Studio_Universal.svg.png",
+      "nameTv": "STUDIO",
+      "CanalTv": "67"
+    },
+    {
+      "id": 67,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/d/d7/USA_Network_logo_%282016%29.svg",
+      "nameTv": "USA",
+      "CanalTv": "68"
+    },
+    {
+      "id": 68,
+      "imgTv": "https://mediaplan.com.gt/wp-content/uploads/2021/02/cinepremium.png",
+      "nameTv": "CINE PREMIUM",
+      "CanalTv": "69"
+    },
+    {
+      "id": 69,
+      "imgTv": "https://s3.us-east-1.amazonaws.com/forofms.na/gallery/album_2/large.gallery_1157_2_28591.png.d8190161e8e838b464ad4a551435fce2.png",
+      "nameTv": "RCN NOVELAS",
+      "CanalTv": "70"
+    },
+    {
+      "id": 70,
+      "imgTv": "https://logowik.com/content/uploads/images/ntn24-nuestra-tele-noticias4306.logowik.com.webp",
+      "nameTv": "NTN 24",
+      "CanalTv": "71"
+    },
+    {
+      "id": 71,
+      "imgTv": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Logo_Glitz.svg/1280px-Logo_Glitz.svg.png",
+      "nameTv": "GLIZT",
+      "CanalTv": "72"
+    }
+  ]
+}
