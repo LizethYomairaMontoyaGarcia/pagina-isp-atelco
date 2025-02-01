@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    /* --primary-color: #000653; */
-    --primary-color: #000874d5;
-    --secundary-color: #3c5db1;
-    --third-color: #007373;
+    --primary-color: #0682e5;
+    --secundary-color: #007373;
+    --third-color: #0552d1;
     --room-color: #ffffff;
-    --fifth-color: #ffbac1;
+    --fifth-color: #010102;
     --sixth-color: #a8a8a8ef;
 
     --primary-typography: oblique bold 120% Roboto;

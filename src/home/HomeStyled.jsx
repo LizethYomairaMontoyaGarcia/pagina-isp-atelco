@@ -1,8 +1,11 @@
 import styled, { keyframes } from "styled-components";
-import indexBackground from "../assets/img/fondo.avif";
+import indexBackground from "../assets/img/condotof.avif";
 
 export const Container = styled.div`
   background-image: url(${indexBackground});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -19,6 +22,14 @@ export const Container = styled.div`
     height: 100%;
     background-color: rgba(0, 0, 0, 0.488);
     z-index: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    background-position: top center;
+  }
+
+  @media screen and (max-width: 468px) {
+    background-position: top;
   }
 
   h3 {
@@ -81,58 +92,88 @@ export const DivContact = styled.div`
 ////////////////////////////////////////////////////////////////////////////
 export const DivSpeed = styled.div`
   text-align: center;
-  width: 70%;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: var(--room-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(5, 82, 209);
+
+  @media (min-width: 768px) {
+    width: 80%;
+    padding: 40px;
+  }
 `;
 
 export const P = styled.p`
-  font-size: 17px;
-  margin-top: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  color: var(--fifth-color);
+  line-height: 1.6;
 
-  @media screen and (min-width: 768px) {
-    font-size: 19px;
-  }
-  @media (max-width: 468px) {
-    font-size: 14px;
+  @media (min-width: 768px) {
+    font-size: 18px;
+    margin-top: 30px;
   }
 `;
 
 export const H1 = styled.h1`
-  font-size: 32px;
-  font-family: var(--font-family-container);
-  margin-top: 50px;
+  font-size: 30px;
+  margin-top: 0;
+  color: var(--fifth-color);
 
-  @media screen and (min-width: 768px) {
-    font-size: 50px;
-  }
-  @media (max-width: 468px) {
-    font-size: 35px;
+  @media (min-width: 768px) {
+    font-size: 40px;
   }
 `;
 
 export const DivSpeedImg = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 100%;
 
   div {
     text-align: center;
     margin: 10px;
-    flex-basis: 50%;
-  }
-  img {
-    width: 80px;
+    flex-basis: 45%;
   }
 
-  p {
-    @media screen and (min-width: 468px) {
-      font-size: 13px;
+  img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  strong {
+    color: var(--primary-color);
+  }
+
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
+    margin-top: 40px;
+
+    div {
+      margin: 20px;
+      flex-basis: 25%;
+    }
+
+    img {
+      width: 100px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    div {
+      flex-basis: 50% !important;
+      margin: 10px 0;
     }
   }
 `;
-
 //Estilos para el modal
 export const ModalWrapper = styled.div`
   z-index: 2;
@@ -179,8 +220,8 @@ export const ImgRedes = styled.img`
 ///////////////////////////////////////////////////////////////////
 
 export const Section = styled.section`
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding: 0 20px;
 `;
 
@@ -189,6 +230,7 @@ export const Card = styled.header`
   text-align: center;
   h1 {
     font-family: var(--font-family-container);
+    color: var(--third-color);
     font-size: 2.2rem;
     @media (max-width: 768px) {
       font-size: 1.8rem;
@@ -198,12 +240,12 @@ export const Card = styled.header`
     }
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     @media (max-width: 768px) {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
     @media (max-width: 480px) {
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
   }
 `;
@@ -283,7 +325,7 @@ export const CardList = styled.ul`
 `;
 
 export const CardItem = styled.li`
-  width: 500px;
+  width: 400px;
   margin: 10px;
   border: 2px solid var(--third-color);
   border-radius: 18px;
@@ -314,11 +356,13 @@ export const CardHeader = styled.header`
   background-color: var(--third-color);
   padding: 5px;
   height: 70px;
+  margin-top: 40px;
+  margin-bottom: 8px;
   h1 {
     color: var(--room-color);
     font-family: var(--font-family-container);
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1.7rem;
+    padding-top: 15px;
     @media (max-width: 768px) {
       font-size: 1.2rem;
     }

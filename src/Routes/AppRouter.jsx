@@ -7,7 +7,6 @@ import AboutUs from "../AboutUs/AboutUs";
 import Normativity from "../Normativity/Normativity";
 import Pqrs from "../Pqrs/Pqrs";
 import SpeedTest from "../generalComponent/SpeedTest/SpeedTest";
-import Tv from "../Tv/Tv";
 import TermsAndConditions from "../TermsAndConditions/TermsAndConditions";
 
 const AppRouter = () => {
@@ -18,7 +17,6 @@ const AppRouter = () => {
         <Route path="Servicios" element={<Services />} />
         <Route path="Cobertura" element={<Coverage />} />
         <Route path="Nosotros" element={<AboutUs />} />
-        <Route path="tv" element={<Tv />} />
         <Route path="Normatividad" element={<Normativity />} />
         <Route path="Pqrs" element={<Pqrs />} />
         <Route path="Test" element={<SpeedTest />} />

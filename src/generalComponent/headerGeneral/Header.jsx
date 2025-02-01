@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HeaderWrapper, Container, Logo, Nav, MobileNav } from "./HeaderStyled";
-import logoIsp from "../../assets/img/asoTv.jpg";
+import logoIsp from "../../assets/img/atelcosas.avif";
 
 const Header = () => {
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
@@ -8,7 +8,6 @@ const Header = () => {
 
   const updateMedia = () => {
     setIsDesktop(window.innerWidth > 768);
-    // Cerrar el menú hamburguesa si la pantalla es mayor que 768px
     if (window.innerWidth > 768) {
       setMobileNavOpen(false);
     }

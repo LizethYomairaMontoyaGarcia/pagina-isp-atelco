@@ -7,7 +7,6 @@ export const HeaderWrapper = styled.header`
   width: 100%;
   background-color: #fff;
   z-index: 1000;
-  /* border-bottom: 2px solid rgba(0, 6, 83, 0.671); Borde con opacidad  */
   box-shadow: 0px 5px 15px rgba(0, 6, 92, 0.986); /* Sombra con opacidad */
 `;
 
@@ -22,7 +21,7 @@ export const Logo = styled.h1`
   margin: 0;
   font-size: 24px;
   img {
-    width: 70px;
+    width: 80px;
   }
 `;
 
@@ -38,9 +37,9 @@ export const Nav = styled.nav`
   }
 
   li {
-    margin-right: 25px;
+    margin-right: 27px;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 650;
   }
 
   a {

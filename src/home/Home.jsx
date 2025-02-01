@@ -15,7 +15,6 @@ import {
   CardItem,
   CardHeader,
   TitleCarousel,
-  ParrafoCarousel,
   DivGeneralCarousel,
   ButtonClose,
   DivPlans,
@@ -67,7 +66,7 @@ export const Home = () => {
         }
       },
       {
-        threshold: 0.5, // Ajusta este valor según tus necesidades
+        threshold: 0.5,
       }
     );
 
@@ -86,7 +85,7 @@ export const Home = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title> AsoTv Vegachi |Inicio</title>
+        <title>Inicio | Atelco Alta Velocidad S.A.S Zomac</title>
         <link rel="canonical" href="https://asotv-vegachi.com/" />
         <meta name="description" content="Intenet alta velocidad" />
       </Helmet>
@@ -95,10 +94,12 @@ export const Home = () => {
         <ChatWhatsapp />
         <Container>
           <h3 ref={textRef}>
-            Internet de Alta Velocidad <br />
-            Máxima productividad y entretenimiento.
+            Velocidad y estabilidad <br />
+            para todo lo que necesitas.
             <br />
-            Navega sin límites. ¡Únete hoy!
+            Disfruta de una conexión rápida, <br />
+            sin interrupciones y con la mejor cobertura. <br /> <br />
+            ¡Únete hoy!
           </h3>
         </Container>
 
@@ -107,41 +108,15 @@ export const Home = () => {
             <Section>
               <Card>
                 <h1>
-                  <strong>TENEMOS EL PLAN PERFECTO PARA TI</strong>
+                  <strong>TENEMOS LOS MEJORES PLANES PARA TI</strong>
                 </h1>
                 <p>
-                  Contamos con planes de alta velocidad para que navegue sin
-                  límites y al mejor precio.
+                  ¡Contáctanos hoy mismo para conocer más sobre nuestros planes
+                  y encontrar la opción perfecta para ti!
                 </p>
               </Card>
 
               <CardList>
-                <CardItem>
-                  <CardHeader>
-                    <h1>
-                      <strong>Planes Residenciales</strong>
-                    </h1>
-                  </CardHeader>
-                  <p>
-                    <strong>{plansData.residentPlans[0].services}</strong>
-                  </p>
-                  <p>Estos son nuestros planes</p>
-                  <DivPlans>
-                    {plansData.residentPlans.map((plan, index) => (
-                      <div key={index}>
-                        <strong>
-                          <p>{plan.plans}Mb</p>
-                        </strong>
-                      </div>
-                    ))}
-                  </DivPlans>
-                  <ButtonGeneral onClick={toggleModal}>
-                    <em>
-                      <strong>Contratar el servicio</strong>
-                    </em>
-                  </ButtonGeneral>
-                </CardItem>
-
                 <CardItem>
                   <CardHeader>
                     <h1>
@@ -164,6 +139,32 @@ export const Home = () => {
                   <ButtonGeneral onClick={toggleModal}>
                     <em>
                       <strong> Contratar el servicio</strong>
+                    </em>
+                  </ButtonGeneral>
+                </CardItem>
+
+                <CardItem>
+                  <CardHeader>
+                    <h1>
+                      <strong>Planes Residenciales</strong>
+                    </h1>
+                  </CardHeader>
+                  <p>
+                    <strong>{plansData.residentPlans[0].services}</strong>
+                  </p>
+                  <p>Estos son nuestros planes</p>
+                  <DivPlans>
+                    {plansData.residentPlans.map((plan, index) => (
+                      <div key={index}>
+                        <strong>
+                          <p>{plan.plans}Mb</p>
+                        </strong>
+                      </div>
+                    ))}
+                  </DivPlans>
+                  <ButtonGeneral onClick={toggleModal}>
+                    <em>
+                      <strong>Contratar el servicio</strong>
                     </em>
                   </ButtonGeneral>
                 </CardItem>
@@ -235,19 +236,35 @@ export const Home = () => {
               <Carousel.Item key={item}>
                 <div
                   style={{
-                    backgroundColor: "#89cffd",
-                    width: "100%",
-                    height: "250px",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    paddingLeft: "20px",
+                    paddingRight: "20px",
                   }}
-                ></div>
-                <Carousel.Caption>
-                  <ParrafoCarousel>{opinion.opinion}</ParrafoCarousel>
-                </Carousel.Caption>
+                >
+                  <img
+                    src={opinion.foto}
+                    alt="Cliente Logo"
+                    width="100px"
+                    height="100px"
+                    style={{ borderRadius: "50%" }}
+                  />
+                  <p
+                    style={{
+                      marginTop: "20px",
+                      fontSize: "18px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    {opinion.opinion}
+                  </p>
+                </div>
               </Carousel.Item>
             ))}
           </StyledCarousel>
         </DivGeneralCarousel>
-
         <Foother />
       </div>
     </>

@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import indexBackground from "../assets/img/Tierraqueenamora.avif";
+import indexBackground from "../assets/img/condoto.avif";
 import { Card } from "react-bootstrap";
 
 export const Container = styled.div`
@@ -25,6 +25,7 @@ export const Container = styled.div`
 
   h1,
   p,
+  h3,
   div {
     opacity: 0;
     transform: translateY(50px);
@@ -45,6 +46,15 @@ export const Container = styled.div`
   }
 
   p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 100px;
+    margin-top: 20px;
+    z-index: 2;
+    font-family: var(--font-family-container);
+  }
+
+  h3 {
     color: #ffffff;
     font-size: 20px;
     padding: 0 100px;
@@ -160,15 +170,15 @@ export const DivGeneralCard = styled.div`
 export const CardContainerCenter = styled.div`
   padding: 20px;
   background-color: #ffffff;
-  border: 1px solid var(--primary-color);
-  box-shadow: 0 2px 5px var(--primary-color);
+  border: 1px solid var(--third-color);
+  box-shadow: 0 2px 5px var(--third-color);
   color: #000000;
   text-align: center;
   border-radius: 20px;
   &:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
-    background-color: #0008742a;
+    background-color: #0553d137;
   }
 `;
 

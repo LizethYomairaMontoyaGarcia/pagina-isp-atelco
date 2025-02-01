@@ -13,12 +13,8 @@ import {
   HeaderCards,
   Button,
   Conta,
-  ContainerTv,
-  Image,
   DivServices,
   StyledCard,
-  ContainerInicialTv,
-  Card3D,
   ButtonInfo,
   Contaprincipal,
   ButtonClick,
@@ -29,7 +25,6 @@ import PuntoFisico from "../assets/img/pagofisicooo.avif";
 import PuntoLinea from "../assets/img/pagoenlinea.avif";
 import plansData from "../Data/plans.json";
 import Card from "react-bootstrap/Card";
-import tele from "../assets/img/viendoTv.avif";
 import { useNavigate } from "react-router-dom";
 import { ButtonGeneral } from "../StyledGenerals";
 import { Helmet } from "react-helmet";
@@ -80,7 +75,7 @@ const Services = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Servicos | AsoTv Vegachi</title>
+        <title>Servicos | Atelco Alta Velocidad S.A.S Zomac</title>
         <link rel="canonical" href="https://asotv-vegachi.com/servicios" />
         <meta name="description" content="Nuestros servicios" />
       </Helmet>
@@ -91,14 +86,17 @@ const Services = () => {
         <div>
           <Container ref={containerRef}>
             <h1>
-              INTERNET <br />
-              + <br />
-              TELEVISIÓN
+              FIBRA ÓPTICA
+              <br />
+              LA CALIDAD ES NUESTRO SERVICIO
             </h1>
+            <br />
             <p>
-              Encuentra el plan ideal que se ajuste a tus necesidades. <br />{" "}
-              Explora nuestra variedad de opciones y comunicate con nosotros.
+              Personaliza tu plan y disfruta de una conexión estable para hacer
+              lo que más te gusta. <br />
+              ¡Navega a toda velocidad!
             </p>
+
             <Contaprincipal>
               <ButtonInfo
                 onClick={() => {
@@ -108,16 +106,6 @@ const Services = () => {
               >
                 <em>
                   <strong> Internet</strong>
-                </em>
-              </ButtonInfo>
-              <ButtonInfo
-                onClick={() => {
-                  setPlanType("corporatePlan");
-                  scrollToSection(televisionSectionRef);
-                }}
-              >
-                <em>
-                  <strong> Televisión </strong>
                 </em>
               </ButtonInfo>
             </Contaprincipal>
@@ -139,7 +127,7 @@ const Services = () => {
 
             <Divider>
               <h2>
-                PLAN{" "}
+                PLAN
                 {planType === "residentPlans" ? "RESIDENCIAL" : "CORPORATIVO"}
               </h2>
 
@@ -175,30 +163,6 @@ const Services = () => {
             </Divider>
           </div>
 
-          <ContainerInicialTv ref={televisionSectionRef}>
-            <h1>¡La mejor televisión se vive aquí!</h1>
-            <ContainerTv>
-              <Image src={tele} alt="tv" />
-
-              <Card3D>
-                <Card.Body>
-                  <Card.Text>
-                    "¡Explora nuestra oferta de canales de televisión por solo
-                    $20.000 de afiliación!. Disfruta de una variedad de 73
-                    canales, ¡incluyendo nuestro canal local (9)! Sumérgete en
-                    un mundo de entretenimiento sin igual y descubre una
-                    experiencia televisiva única."
-                  </Card.Text>
-                  <ButtonGeneral onClick={handleNavigate}>
-                    <em>
-                      <strong> Deseo ver la lista de canales</strong>
-                    </em>
-                  </ButtonGeneral>
-                </Card.Body>
-              </Card3D>
-            </ContainerTv>
-          </ContainerInicialTv>
-
           <Section>
             <HeaderCards>
               <Title>Medios de pago</Title>
@@ -211,14 +175,14 @@ const Services = () => {
                 <Card.Body>
                   <Card.Title>Punto físico</Card.Title>
                   <Card.Text>
-                    Carrera 50 #53-92 calle principal del municipio de Vegachí
-                    Antioquia.
+                    Carrera 5 Calle 7-10 Barrio unión al frente de la iglesia
+                    principal, Municipio Condoto
                   </Card.Text>
                   <ButtonGeneral
                     variant="primary"
                     onClick={() =>
                       window.open(
-                        "https://www.google.com/maps?q=6.773784,-74.798472",
+                        "https://www.google.com/maps?q=5.094589, -76.646629",
                         "_blank"
                       )
                     }
@@ -235,8 +199,10 @@ const Services = () => {
                 <Card.Body>
                   <Card.Title>Pago en linea</Card.Title>
                   <Card.Text>
-                    Transferencia o consignación a la cuenta de ahorros
-                    Bancolombia 00136515306.
+                    Transferencia o consignación, cuenta de ahorros Bancolombia{" "}
+                    <em />
+                    <strong>36000001706</strong> a nombre de{" "}
+                    <strong>Atelco Alta Velocidad.</strong>
                   </Card.Text>
                 </Card.Body>
               </StyledCard>

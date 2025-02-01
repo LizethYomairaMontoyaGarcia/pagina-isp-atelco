@@ -4,7 +4,7 @@
       "id": 1,
       "img": "",
       "services": "Fibra Óptica",
-      "plans": 5,
+      "plans": 20,
       "price": "50.000",
       "items": {
         "item1": "Navegación Ilimitada",
@@ -15,8 +15,8 @@
     {
       "id": 2,
       "services": "Fibra Óptica",
-      "plans": 10,
-      "price": "80.000",
+      "plans": 30,
+      "price": "70.000",
       "items": {
         "item1": "Navegación Ilimitada",
         "item2": "Instalación gratis",
@@ -26,31 +26,8 @@
     {
       "id": 3,
       "services": "Fibra Óptica",
-      "plans": 15,
+      "plans": 50,
       "price": "90.000",
-      "items": {
-        "item1": "Navegación Ilimitada",
-        "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
-      }
-    },
-    {
-      "id": 4,
-      "services": "Fibra Óptica",
-      "plans": 20,
-      "price": "110.000",
-      "items": {
-        "item1": "Navegación Ilimitada",
-        "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
-      }
-    },
-
-    {
-      "id": 5,
-      "services": "Fibra Óptica",
-      "plans": 30,
-      "price": "125.000",
       "items": {
         "item1": "Navegación Ilimitada",
         "item2": "Instalación gratis",
@@ -62,52 +39,8 @@
     {
       "id": 1,
       "services": "Fibra Óptica",
-      "plans": 10,
-      "price": "142.000",
-      "items": {
-        "item1": "Navegación Ilimitada",
-        "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
-      }
-    },
-    {
-      "id": 2,
-      "services": "Fibra Óptica",
-      "plans": 15,
-      "price": "180.000",
-      "items": {
-        "item1": "Navegación Ilimitada",
-        "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
-      }
-    },
-    {
-      "id": 3,
-      "services": "Fibra Óptica",
-      "plans": 20,
-      "price": "240.000",
-      "items": {
-        "item1": "Navegación Ilimitada",
-        "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
-      }
-    },
-    {
-      "id": 4,
-      "services": "Fibra Óptica",
-      "plans": 30,
-      "price": "392.700",
-      "items": {
-        "item1": "Navegación Ilimitada",
-        "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
-      }
-    },
-    {
-      "id": 5,
-      "services": "Fibra Óptica",
-      "plans": 50,
-      "price": "571.200",
+      "plans": 90,
+      "price": "130.000",
       "items": {
         "item1": "Navegación Ilimitada",
         "item2": "Instalación gratis",

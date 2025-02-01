@@ -6,7 +6,7 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
-  background-color: #9e9e9e;
+  background-color: var(--primary-color);
   color: #fff;
 `;
 
@@ -40,23 +40,29 @@ export const ContactSection = styled.div`
     padding-right: 20px;
   }
   img {
-    width: 30px;
+    width: 35px;
     flex-direction: column;
     margin-bottom: 10px;
   }
   p {
     margin: 0;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 16px;
     color: #ffffff;
   }
   a {
     text-decoration: none;
   }
 
+  @media (max-width: 768px) {
+    p {
+      font-size: 13px;
+    }
+  }
+
   @media (max-width: 468px) {
     p {
-      font-size: 11.5px;
+      font-size: 11px;
     }
   }
 `;

@@ -17,7 +17,7 @@ import PaginaCerrada from "../../assets/img/paginacerrada.avif";
 import Desconectar from "../../assets/img/desconectar.avif";
 import Dispositivo from "../../assets/img/dispositivo.avif";
 import Compu from "../../assets/img/compu.avif";
-import studio from "../../assets/img/studio.avif";
+import medidorVelocidad from "../../assets/img/medidorVelocidad.png";
 import { Helmet } from "react-helmet";
 
 const SpeedTest = () => {
@@ -25,7 +25,7 @@ const SpeedTest = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Medición de velocidad | AsoTv Vegachi</title>
+        <title>Test | Atelco Alta Velocidad S.A.S Zomac</title>
         <meta name="description" content="Test de velocidad" />
         <link rel="canonical" href="https://asotv-vegachi.com/test" />
       </Helmet>
@@ -106,7 +106,7 @@ const SpeedTest = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <CircleImage src={studio} alt="Descripción de la imagen" />
+          <CircleImage src={medidorVelocidad} alt="Descripción de la imagen" />
         </CircleImageLink>
       </CenteredContainer>
 
