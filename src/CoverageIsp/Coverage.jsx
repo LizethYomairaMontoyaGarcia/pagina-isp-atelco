@@ -13,7 +13,7 @@ const Coverage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Cobertura | AsoTv Vegachi</title>
+        <title>Cobertura | Atelco Alta Velocidad S.A.S Zomac</title>
         <meta name="description" content="Cobertura" />
         <link rel="canonical" href="https://asotv-vegachi.com/cobertura" />
       </Helmet>
@@ -31,7 +31,7 @@ const Coverage = () => {
               zIndex: "2",
               backgroundColor: "#00000095",
               color: "white",
-              fontSize: "1.2rem",
+              fontSize: "1.5rem",
             }}
           >
             <Card.Body>

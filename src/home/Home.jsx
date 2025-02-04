@@ -14,18 +14,18 @@ import {
   CardList,
   CardItem,
   CardHeader,
-  TitleCarousel,
-  DivGeneralCarousel,
   ButtonClose,
   DivPlans,
   Conta,
   Button,
+  CardGrid,
+  CardItemCustomers,
+  CardContent,
+  Div,
 } from "./HomeStyled";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ChatWhatsapp from "../generalComponent/chatWhatsapp/ChatWhatsapp";
 import FormContact from "../Forms/FormContact";
-import Carousel from "react-bootstrap/Carousel";
-import styled from "styled-components";
 import { ButtonGeneral } from "../StyledGenerals";
 import plansData from "../Data/plans.json";
 import opinions from "../Data/opinions.json";
@@ -35,11 +35,6 @@ import Contrato from "../assets/img/contrato.gif";
 import Herramienta from "../assets/img/mecanico.gif";
 import Rapido from "../assets/img/rapido.gif";
 import Nube from "../assets/img/nube.gif";
-
-const StyledCarousel = styled(Carousel)`
-  width: 100%;
-  margin: auto;
-`;
 
 export const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -227,44 +222,17 @@ export const Home = () => {
           </DivSpeed>
         </div>
 
-        <DivGeneralCarousel>
-          <TitleCarousel>
-            <h1>¿Por qué los clientes nos prefieren?</h1>
-          </TitleCarousel>
-          <StyledCarousel interval={2000} indicators={true}>
-            {opinions.opinions.map((opinion, item) => (
-              <Carousel.Item key={item}>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    paddingLeft: "20px",
-                    paddingRight: "20px",
-                  }}
-                >
-                  <img
-                    src={opinion.foto}
-                    alt="Cliente Logo"
-                    width="100px"
-                    height="100px"
-                    style={{ borderRadius: "50%" }}
-                  />
-                  <p
-                    style={{
-                      marginTop: "20px",
-                      fontSize: "18px",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    {opinion.opinion}
-                  </p>
-                </div>
-              </Carousel.Item>
+        <Div>
+          <h1>¿Por qué los clientes nos prefieren?</h1>
+          <CardGrid>
+            {opinions.opinions.map((opinion, index) => (
+              <CardItemCustomers key={index}>
+                <CardContent>{opinion.opinion}</CardContent>
+              </CardItemCustomers>
             ))}
-          </StyledCarousel>
-        </DivGeneralCarousel>
+          </CardGrid>
+        </Div>
+
         <Foother />
       </div>
     </>

@@ -87,8 +87,35 @@ export const Image = styled.img`
   }
 `;
 
+//////////////////////////////////////////////////////////////////////
+
+export const DivStyledContainer = styled.div`
+  text-align: center;
+  width: 98%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(5, 82, 209);
+`;
+
 export const H2 = styled.h2`
   text-align: center;
   margin-top: 30px;
   font-family: var(--font-family-container);
+  color: var(--third-color);
+  font-size: 2.3rem;
+`;
+
+export const StyledContainer = styled.div`
+  display: flex;
+  margin-top: 29px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+`;
+
+//////////////////////////////////////////
+
+export const DivAccordion = styled.div`
+  margin-top: 60px;
+  margin-bottom: 60px;
 `;

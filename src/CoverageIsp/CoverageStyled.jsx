@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import indexBackground from "../assets/img/Aérea.avif";
+import indexBackground from "../assets/img/cobertura.avif";
 
 export const DivCoverage = styled.div`
   position: relative;

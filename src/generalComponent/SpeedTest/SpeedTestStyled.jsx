@@ -1,12 +1,11 @@
 import styled, { keyframes } from "styled-components";
 
-///////////////////////////
 export const ContainerValores = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align:center;
-  margin-top: 110px;
+  text-align: center;
+  margin-top: 120px;
   font-family: var(--font-family-container);
 `;
 
@@ -75,14 +74,16 @@ export const CardHeader = styled.header`
 /////////////////////////////////////
 
 export const CenteredContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  font-family: var(--font-family-container);
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(5, 82, 209);
+
+  h1 {
+    color: var(--third-color);
+  }
 `;
 
 export const CircleImageLink = styled.a`
@@ -104,19 +105,19 @@ const shadowPulse = keyframes`
 
 const scaleAnimation = keyframes`
   0% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   50% {
     transform: scale(1.05);
   }
   100% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 `;
 
 export const CircleImage = styled.img`
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   margin-top: 30px;
   cursor: pointer; /* Cursor de la mano */

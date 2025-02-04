@@ -9,7 +9,8 @@
       "items": {
         "item1": "Navegación Ilimitada",
         "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
+        "item3": "Iva a estratos superiores a 3",
+        "item4": "Primer pago del mes se cancela por adelantado"
       }
     },
     {
@@ -20,7 +21,8 @@
       "items": {
         "item1": "Navegación Ilimitada",
         "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
+        "item3": "Iva a estratos superiores a 3",
+        "item4": "Primer pago del mes se cancela por adelantado"
       }
     },
     {
@@ -31,7 +33,8 @@
       "items": {
         "item1": "Navegación Ilimitada",
         "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
+        "item3": "Iva a estratos superiores a 3",
+        "item4": "Primer pago del mes se cancela por adelantado"
       }
     }
   ],
@@ -44,7 +47,8 @@
       "items": {
         "item1": "Navegación Ilimitada",
         "item2": "Instalación gratis",
-        "item3": "Iva a estratos superiores a 3"
+        "item3": "Iva incluido",
+        "item4": "Primer pago del mes se cancela por adelantado"
       }
     }
   ]

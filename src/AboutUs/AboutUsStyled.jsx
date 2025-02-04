@@ -1,47 +1,28 @@
 import styled from "styled-components";
-import indexBackground from "../assets/img/Tierraqueenamora.avif";
 
 export const Container = styled.div`
-  padding-top: 150px;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  background-image: url(${indexBackground});
-  background-size: cover;
-  background-position: center;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.585);
-    z-index: 1;
-  }
+  width: 90%;
+  margin: 30px auto;
+  background-color: #0553d1bb;
+  padding: 20px;
+  border-radius: 10px ;
+  box-shadow: 0px 0px 15px rgba(5, 82, 209);
 
   h1 {
-    color: #ffffff;
-    margin-bottom: 50px;
-    z-index: 2;
+    color: var(--room-color);
+    margin-bottom: 20px;
     font-family: var(--font-family-container);
   }
   p {
-    color: white;
-    z-index: 2;
+    color: var(--room-color);
     padding: 0 30px;
-    margin-top: 30px;
-    font-size: 1.2rem;
+    margin-top: 20px;
+    font-size: 1.3rem;
   }
-  h2 {
-    color: #ffffff;
-    margin-top: 10px;
-    z-index: 2;
-    font-family: var(--font-family-container);
+
+  img {
+    width: 170px;
   }
 
   @media screen and (max-width: 468px) {
@@ -58,10 +39,10 @@ export const CardContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 50px;
 
-  @media screen and (max-width: 468px) {
+  @media screen and (max-width:  768px) {
     flex-direction: column;
   }
 `;
@@ -80,8 +61,8 @@ export const CardItemMisionVision = styled.li`
   border-radius: 20px;
   overflow: hidden;
   text-align: center;
-  background: linear-gradient(135deg, #c5f3f0, #ffffff);
-  box-shadow: 0 20px 5px rgba(0, 0, 0, 0.285), 0 30px 10px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(135deg, #0553d187, #ffffff);
+  box-shadow: 0 20px 5px rgba(0, 0, 0, 0.053), 0 30px 10px rgba(0, 0, 0, 0.185);
   transform-style: preserve-3d;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   transform: perspective(1000px) translateZ(0);
@@ -142,7 +123,8 @@ export const ContainerValores = styled.div`
 
   h2 {
     font-family: var(--font-family-container);
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+    color: var(--third-color);
   }
 `;
 
@@ -158,7 +140,7 @@ export const CardList = styled.ul`
 export const CardItem = styled.li`
   width: calc(31% - 10px);
   margin: 10px;
-  border: 1px solid #cccccc;
+  border: 2px solid var(--third-color);
   border-radius: 20px;
   overflow: hidden;
   text-align: center;
@@ -178,7 +160,7 @@ export const CardItem = styled.li`
   &:hover {
     transform: perspective(900px) translateZ(10px);
     box-shadow: 0 25px 20px rgba(255, 255, 255, 0.243),
-      0 10px 50px rgba(0, 0, 0, 0.5);
+      0 10px 50px rgba(0, 0, 0, 0.327);
   }
 `;
 

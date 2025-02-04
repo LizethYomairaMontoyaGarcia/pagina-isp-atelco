@@ -19,13 +19,15 @@ export const DivServices = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 130px;
+  margin-bottom: 40px;
   padding: 0 20px;
 
-  h2 {
+  h1 {
     margin-bottom: 20px;
-    font-size: 1.5rem;
-    animation: ${h2Animation} 2s ease-in-out infinite;
+    font-size: 1.8rem;
+    animation: ${h2Animation} 3s ease-in-out infinite;
+    color: var(--third-color);
   }
 `;
 
@@ -41,24 +43,24 @@ const cardAnimation = keyframes`
 `;
 
 export const StyledCard = styled(Card)`
-  width: 80%;
+  width: 90%;
   max-width: 50rem;
   animation: ${cardAnimation} 0.5s ease-out;
   border-radius: 15px;
   overflow: hidden;
   background: linear-gradient(145deg, #ffffffc1, #f0f0f06b);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 6px 10px rgba(0, 0, 0, 0.3),
-    0 4px 6px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(255, 255, 255, 0.5),
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 6px 10px rgba(5, 82, 209),
+    0 4px 6px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(5, 82, 209),
     inset 0 0 10px rgba(0, 0, 0, 0.1);
   transform: perspective(1500px) translateZ(50px);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   &:hover {
     transform: perspective(1500px) translateZ(60px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 12px 20px rgba(0, 0, 0, 0.3),
-      0 8px 10px rgba(0, 0, 0, 0.2), inset 0 0 15px rgba(255, 255, 255, 0.6),
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 12px 20px rgba(5, 82, 209),
+      0 8px 10px rgba(0, 0, 0, 0.2), inset 0 0 15px rgba(5, 82, 209),
       inset 0 0 15px rgba(0, 0, 0, 0.2);
   }
 
@@ -74,10 +76,11 @@ export const StyledCard = styled(Card)`
 export const CardBody = styled(Card.Body)`
   padding: 20px;
   background-color: #ffffff;
+  color: var(--fifth-color);
 `;
 
 export const CardTitle = styled(Card.Title)`
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: var(--primary-color);
   margin-bottom: 15px;

@@ -33,7 +33,7 @@ const WhatsAppButton = styled.div`
   a {
     text-decoration: none;
   }
-  :hover{
+  :hover {
     transform: scale(1.05);
   }
 `;
@@ -42,7 +42,7 @@ const ChatWhatsapp = () => {
   return (
     <WhatsAppButton>
       <a
-        href="https://api.whatsapp.com/send?phone=573113400908&text=Hola,%20Deseo%20contratar%20el%20servicio%20con%20ustedes,%20¿podrían%20darme%20más%20información%20del%20servicio?"
+        href="https://api.whatsapp.com/send?phone=573136162815&text=Hola,%20Deseo%20contratar%20el%20servicio%20con%20ustedes,%20¿podrían%20darme%20más%20información%20del%20servicio?"
         rel="noopener noreferrer"
       >
         <img src={whatsaap} alt="WhatsApp" />

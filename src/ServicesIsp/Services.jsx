@@ -136,19 +136,21 @@ const Services = () => {
                   <DivGeneralCard key={plan.id}>
                     <CardContainerCenter>
                       <div key={plan.id}>
-                        <h3>{plan.services}</h3>
+                        <h3> Internet {plan.services}</h3>
                         <h2>
                           <strong>{plan.plans}Mb</strong>
                         </h2>
-                        <p>${plan.price}</p>
-                        <h4>Internet {plan.services}</h4>
+                        <h4>
+                          <strong>${plan.price}</strong>
+                        </h4>
                         <p>{plan.items.item1}</p>
                         <p>{plan.items.item2}</p>
                         <p>{plan.items.item3}</p>
+                        <p>{plan.items.item4}</p>
                         <ButtonGeneral
                           onClick={() =>
                             (window.location.href =
-                              "https://api.whatsapp.com/send?phone=3113400908&text=Hola,%20me%20interesa%20contratar%20el%20servicio%20con%20ustedes%20me%20pueden%20dar%20mas%20información%20gracias.")
+                              "https://api.whatsapp.com/send?phone=3136162815&text=Hola,%20me%20interesa%20contratar%20el%20servicio%20con%20ustedes%20me%20pueden%20dar%20mas%20información%20gracias.")
                           }
                         >
                           <em>
@@ -165,7 +167,9 @@ const Services = () => {
 
           <Section>
             <HeaderCards>
-              <Title>Medios de pago</Title>
+              <Title>
+                <strong>Medios de pago</strong>
+              </Title>
               <Subtitle>No dejes pasar el pago de tu factura</Subtitle>
             </HeaderCards>
 

@@ -28,7 +28,7 @@ const FormContact = () => {
     ) {
       const message = `Hola, estoy interesado en contratar su servicio de internet y me gustaría recibir más información sobre los planes que ofrecen. A continuación, les proporciono mis datos \n\nNombre: ${formData.name}\nCorreo: ${formData.email}\nNúmero: ${formData.number}\nDirección: ${formData.address}`;
       window.open(
-        `https://api.whatsapp.com/send?phone=573113400908&text=${encodeURIComponent(
+        `https://api.whatsapp.com/send?phone=573136162815&text=${encodeURIComponent(
           message
         )}`,
         "_blank"

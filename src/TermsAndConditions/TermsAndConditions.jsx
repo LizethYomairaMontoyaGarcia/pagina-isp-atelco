@@ -11,23 +11,29 @@ import ChatWhatsapp from "../generalComponent/chatWhatsapp/ChatWhatsapp";
 import { Helmet } from "react-helmet";
 
 import { ButtonGeneral } from "../StyledGenerals";
+import { FooterContainer } from "../generalComponent/footherGeneral/FootherStyled";
 
 const TermsAndConditions = () => {
   return (
     <>
-     <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
-        <title>Términos y condiciones | AsoTv Vegachi</title>
-        <link rel="canonical" href="https://asotv-vegachi.com/termsAndConditions" />
+        <title>
+          Términos y condiciones | Atelco Alta Velocidad S.A.S Zomac
+        </title>
+        <link
+          rel="canonical"
+          href="https://asotv-vegachi.com/termsAndConditions"
+        />
         <meta name="description" content="Términos y condiciones" />
       </Helmet>
       <Header />
       <ChatWhatsapp />
 
       <DivServices>
-        <h2>
+        <h1>
           Ninguno de nuestros servicios tiene cláusula <br /> de permanencia.
-        </h2>
+        </h1>
 
         <StyledCard>
           <CardBody>
@@ -55,7 +61,7 @@ const TermsAndConditions = () => {
           variant="primary"
           onClick={() =>
             (window.location.href =
-              "https://web.whatsapp.com/send?phone=3113400908&text=Hola,%20me%20interesa%20contratar%20el%20servicio%20con%20ustedes%20me%20pueden%20dar%20mas%20información%20gracias.")
+              "https://web.whatsapp.com/send?phone=3136162815&text=Hola,%20me%20interesa%20contratar%20el%20servicio%20con%20ustedes%20me%20pueden%20dar%20mas%20información%20gracias.")
           }
         >
           ¡Quiero contratar el servicio!

@@ -400,25 +400,53 @@ export const DivPlans = styled.div`
   }
 `;
 /////////////////////////////////////////////////////////////////////////////////////
-// Estilos de carousel
-export const ParrafoCarousel = styled.p`
-  color: black;
-  font-family: var(--font-family-container);
-  font-size: 20px;
-  @media (max-width: 468px) {
-    font-size: 18px;
+
+export const Div = styled.div`
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+
+  h1 {
+    color: var(--fifth-color);
   }
 `;
 
-export const TitleCarousel = styled.div`
+export const CardGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 30px auto;
+  max-width: 1100px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  @media (max-width: 468px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
+export const CardItemCustomers = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid var(--third-color);
+  border-radius: 20px;
+  background-color: white;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: perspective(900px) translateZ(10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+`;
+
+export const CardContent = styled.p`
   font-family: var(--font-family-container);
-`;
-
-export const DivGeneralCarousel = styled.div`
-  margin-bottom: 50px;
-`;
-
-export const imgCarousel = styled.img`
-  width: 50px;
+  font-size: 1.1rem;
 `;

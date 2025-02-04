@@ -172,13 +172,16 @@ export const CardContainerCenter = styled.div`
   background-color: #ffffff;
   border: 1px solid var(--third-color);
   box-shadow: 0 2px 5px var(--third-color);
-  color: #000000;
+  color: var(--fifth-color);
   text-align: center;
   border-radius: 20px;
   &:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
     background-color: #0553d137;
+  }
+  h2 {
+    color: var(--third-color);
   }
 `;
 
@@ -196,35 +199,19 @@ export const Conta = styled.div`
 `;
 
 //////////////////////////////////////////////////////////////////
-
 export const Section = styled.section`
-  padding-bottom: 30px;
-  padding-top: 30px;
-  background-color: #006565cd;
-  margin-top: 50px;
-`;
-
-export const HeaderCards = styled.div`
   text-align: center;
-  margin-bottom: 20px;
-`;
+  width: 95%;
+  margin: 30px auto;
+  background-color: #0681e5b1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(5, 82, 209);
 
-export const Title = styled.h1`
-  font-family: var(--font-family-container);
-  color: white;
-`;
-
-export const Subtitle = styled.h2`
-  font-size: 18px;
-  color: #eaeaea;
-`;
-
-export const CardList = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-  gap: 30px;
+  @media (min-width: 768px) {
+    width: 80%;
+    padding: 40px;
+  }
 `;
 
 export const StyledCard = styled(Card)`
@@ -258,6 +245,29 @@ export const StyledCard = styled(Card)`
   .card-text {
     font-size: 1rem;
   }
+`;
+
+export const HeaderCards = styled.div`
+  text-align: center;
+  margin-bottom: 20px;
+`;
+
+export const Title = styled.h1`
+  font-family: var(--font-family-container);
+  color: var(--fifth-color);
+`;
+
+export const Subtitle = styled.h2`
+  font-size: 20px;
+  color: var(--fifth-color);
+`;
+
+export const CardList = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  gap: 30px;
 `;
 
 //////////////////////////////////////////////////////////////
@@ -305,73 +315,3 @@ export const ButtonClick = styled.button`
 `;
 
 //////////////////////////////////////////////////////
-
-export const ContainerInicialTv = styled.div`
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #e7e7e7;
-
-  h1 {
-    font-family: var(--font-family-container);
-  }
-`;
-
-export const ContainerTv = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
-
-  @media (min-width: 768px) {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-`;
-
-export const Image = styled.img`
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  margin-bottom: 20px;
-
-  @media (min-width: 768px) {
-    margin-right: 20px;
-    margin-bottom: 0;
-  }
-
-  @media (max-width: 468px) {
-    width: 300px;
-    height: 300px;
-  }
-`;
-
-export const Card3D = styled(Card)`
-  width: 30rem;
-  border-radius: 20px;
-  box-shadow: 0 25px 30px rgba(255, 255, 255, 0.374),
-    0 30px 60px rgba(255, 255, 255, 0.4);
-  transform-style: preserve-3d;
-  perspective: 1000px;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
-  &:hover {
-    transform: translateZ(50px) scale(1.05);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 50px 100px rgba(0, 0, 0, 0.5);
-  }
-
-  @media (max-width: 768px) {
-    width: 20rem;
-  }
-`;
-
-export const CardText = styled(Card.Text)`
-  color: #333;
-  font-size: 1.2rem;
-  transform: translateZ(30px);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
-  margin: 0 10px;
-`;

@@ -34,7 +34,7 @@ const SpeedTest = () => {
       <ChatWhatsapp />
 
       <ContainerValores>
-        <h2>Recomendaciones para Un Test</h2>
+        <h1>Recomendaciones para Un Test</h1>
       </ContainerValores>
       <Div>
         <CardList>

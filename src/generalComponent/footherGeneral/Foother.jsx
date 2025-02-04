@@ -27,7 +27,7 @@ const Foother = () => {
 
   const handleEmailClick = () => {
     window.location.href =
-      "mailto:soporte@asotv-vegachi.com?subject=Información%20de%20instalación%20del%20servicio%20de%20internet%20y%20televisión%20ASOTV%20VEGACHÍ";
+      "mailto:atelcoaltavelocidad@gmail.com?subject=Información%20de%20instalación%20del%20servicio%20de%20internet%20Atelco%20Alta%20Velocidad";
   };
 
   const phoneNumber = "+57 3182083849";
@@ -47,7 +47,7 @@ const Foother = () => {
           <div onClick={handleEmailClick}>
             <img src={gmail} alt="gmail" />
             <strong>
-              <p>soporte@asotv-vegachi.com</p>
+              <p>atelcoaltavelocidad@gmail.com</p>
             </strong>
           </div>
           <div>

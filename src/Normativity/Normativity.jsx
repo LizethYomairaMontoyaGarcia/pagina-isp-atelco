@@ -15,6 +15,9 @@ import {
   Image,
   H2,
   StyledImageLink,
+  StyledContainer,
+  DivStyledContainer,
+  DivAccordion
 } from "./NormativityStyled";
 import Foother from "../generalComponent/footherGeneral/Foother";
 import Accordion from "react-bootstrap/Accordion";
@@ -27,20 +30,15 @@ const StyledCard = styled(Card)`
   margin-bottom: 20px;
   border-radius: 20px;
   align-items: center;
+  text-align: center;
+  box-shadow: 0px 0px 8px rgba(5, 82, 209);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
-    transform: scale(1.05) rotate(2deg);
+    transform: scale(1.05) rotate(1deg);
     box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.3);
-    background-color: #f0f0f0;
+    background-color: #0681e54f;
   }
-`;
-
-const StyledContainer = styled.div`
-  display: flex;
-  margin-top: 29px;
-  margin-bottom: 20px;
-  padding: 0 10px;
 `;
 
 const Normativity = () => {
@@ -91,7 +89,145 @@ const Normativity = () => {
           </Content>
         </Container>
 
-        <div>
+        <DivStyledContainer>
+          <H2>Leyes, resoluciones y circulares</H2>
+          <StyledContainer>
+            <div className="row mx-0">
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Decreto <br /> 1078 de 2015
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="https://mintic.gov.co/images/documentos/publicaciones/circular_registro_637740_%20campana_pornografia_inf.pdf ">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Ley <br /> 1341 de 2009
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1341_2009.html">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Ley <br /> 1978 de 2019
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1978_2019.html">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Resolución <br />
+                      202 de 2010
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="https://www.mintic.gov.co/portal/715/articles-6398_Resolucion_202_2010.pdf">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Resolución <br />
+                      290 de 2010
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="https://normograma.mintic.gov.co/mintic/docs/pdf/resolucion_mintic_0290_2010.pdf">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Resolución <br /> 1090 de 2016
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="https://mintic.gov.co/portal/715/articles-6398_Resolucion_1090_2016.pdf">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Resolución <br />
+                      3484 de 2012
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="https://colombiatic.mintic.gov.co/679/articles-62434_recurso_1.pdf">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Resolución <br />
+                      57 de 2021
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?dt=S&i=140664">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                <StyledCard className="mx-auto">
+                  <Card.Body>
+                    <Card.Title>
+                      Circular <br /> 01 de 2021
+                    </Card.Title>
+                  </Card.Body>
+                  <ButtonGeneral>
+                    <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=159527">
+                      Descargar
+                    </a>
+                  </ButtonGeneral>
+                </StyledCard>
+              </div>
+            </div>
+          </StyledContainer>
+        </DivStyledContainer>
+
+        <DivAccordion>
           <H2>Normatividad</H2> <br />
           <div
             style={{ margin: "0 auto", maxWidth: "900px", padding: "0 15px" }}
@@ -374,146 +510,7 @@ const Normativity = () => {
               </Accordion.Item>
             </Accordion>
           </div>
-        </div>
-
-        <div>
-          <H2>Leyes, resoluciones y circulares</H2>
-          <StyledContainer>
-            <div className="row mx-0">
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Decreto <br /> 1078 de 2015
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="https://mintic.gov.co/images/documentos/publicaciones/circular_registro_637740_%20campana_pornografia_inf.pdf ">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Ley <br /> 1341 de 2009
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1341_2009.html">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Ley <br /> 1978 de 2019
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1978_2019.html">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Resolución <br />
-                      202 de 2010
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="https://www.mintic.gov.co/portal/715/articles-6398_Resolucion_202_2010.pdf">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Resolución <br />
-                      290 de 2010
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="https://normograma.mintic.gov.co/mintic/docs/pdf/resolucion_mintic_0290_2010.pdf">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Resolución <br /> 1090 de 2016
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="https://mintic.gov.co/portal/715/articles-6398_Resolucion_1090_2016.pdf">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Resolución <br />
-                      3484 de 2012
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="https://colombiatic.mintic.gov.co/679/articles-62434_recurso_1.pdf">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Resolución <br />
-                      57 de 2021
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?dt=S&i=140664">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3 col-12">
-                <StyledCard style={{ textAlign: "center" }} className="mx-auto">
-                  <Card.Body>
-                    <Card.Title>
-                      Circular <br /> 01 de 2021
-                    </Card.Title>
-                  </Card.Body>
-                  <ButtonGeneral>
-                    <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=159527">
-                      Descargar
-                    </a>
-                  </ButtonGeneral>
-                </StyledCard>
-              </div>
-            </div>
-          </StyledContainer>
-        </div>
+        </DivAccordion>
 
         <Foother />
       </div>

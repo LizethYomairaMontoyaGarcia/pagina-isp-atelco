@@ -40,7 +40,7 @@ const Pqrs = () => {
       await validationSchema.validate(formData, { abortEarly: false });
 
       const message = `Hola,%0AMe comunico con ustedes para realizar un PQRS, mis datos son los siguientes:%0ANombre: ${formData.name}%0ACédula: ${formData.IdCard}%0ACorreo electrónico: ${formData.email}%0ATeléfono: ${formData.phone}%0AMotivo: ${formData.reason}%0ASolicitud: ${formData.request}`; // Agregada la cédula al mensaje
-      const whatsappLink = `https://wa.me/3113400908?text=${message}`;
+      const whatsappLink = `https://wa.me/3136162815?text=${message}`;
 
       window.open(whatsappLink, "_blank");
     } catch (error) {
@@ -80,7 +80,7 @@ const Pqrs = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>PQRS | AsoTv Vegachi</title>
+        <title>PQRS | Atelco Alta Velocidad S.A.S Zomac</title>
         <link rel="canonical" href="https://asotv-vegachi.com/test" />
         <meta name="description" content="Prueba de velocidad" />
       </Helmet>
@@ -89,7 +89,7 @@ const Pqrs = () => {
         <Header />
         <FormContainer>
           <div>
-            <h1>AsoTv Vegachí te ayuda </h1>
+            <h1> Atelco te ayuda </h1>
             <p>
               Ten presente que para realizar un <strong>PQRS</strong> debes de
               llenar los datos del titular del servicio.
