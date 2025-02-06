@@ -405,6 +405,8 @@ export const Div = styled.div`
   align-items: center;
   text-align: center;
   margin-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   h1 {
     color: var(--fifth-color);

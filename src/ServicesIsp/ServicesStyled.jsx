@@ -201,6 +201,7 @@ export const Conta = styled.div`
 //////////////////////////////////////////////////////////////////
 export const Section = styled.section`
   text-align: center;
+  align-items:center;
   width: 95%;
   margin: 30px auto;
   background-color: #0681e5b1;
