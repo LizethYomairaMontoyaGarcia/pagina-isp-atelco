@@ -38,7 +38,7 @@ const AboutUs = () => {
         <meta charSet="utf-8" />
         <title>Nosotros | Atelco Alta Velocidad S.A.S Zomac</title>
         <meta name="description" content="¿Quienes somos?" />
-        <link rel="canonical" href="https://asotv-vegachi.com/nosotros" />
+        <link rel="canonical" href="https://atelco.net.co/nosotros" />
       </Helmet>
       <Header />
       <ChatWhatsapp />

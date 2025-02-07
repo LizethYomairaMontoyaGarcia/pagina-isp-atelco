@@ -47,7 +47,7 @@ const Normativity = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Normatividad | AsoTv Vegachi</title>
-        <link rel="canonical" href="https://asotv-vegachi.com/normatividad" />
+        <link rel="canonical" href="https://atelco.net.co/Normatividad" />
         <meta name="description" content="Normas vigentes" />
       </Helmet>
       <div>

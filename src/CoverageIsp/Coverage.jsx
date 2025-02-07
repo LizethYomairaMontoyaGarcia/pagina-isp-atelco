@@ -15,7 +15,7 @@ const Coverage = () => {
         <meta charSet="utf-8" />
         <title>Cobertura | Atelco Alta Velocidad S.A.S Zomac</title>
         <meta name="description" content="Cobertura" />
-        <link rel="canonical" href="https://asotv-vegachi.com/cobertura" />
+        <link rel="canonical" href="https://atelco.net.co/Cobertura" />
       </Helmet>
       <Header />
       <ChatWhatsapp />

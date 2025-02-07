@@ -9,9 +9,7 @@ import Card from "react-bootstrap/Card";
 import Header from "../generalComponent/headerGeneral/Header";
 import ChatWhatsapp from "../generalComponent/chatWhatsapp/ChatWhatsapp";
 import { Helmet } from "react-helmet";
-
 import { ButtonGeneral } from "../StyledGenerals";
-import { FooterContainer } from "../generalComponent/footherGeneral/FootherStyled";
 
 const TermsAndConditions = () => {
   return (
@@ -23,7 +21,7 @@ const TermsAndConditions = () => {
         </title>
         <link
           rel="canonical"
-          href="https://asotv-vegachi.com/termsAndConditions"
+          href="https://atelco.net.co/TerminosyCondiciones"
         />
         <meta name="description" content="Términos y condiciones" />
       </Helmet>
