@@ -37,18 +37,17 @@ const TermsAndConditions = () => {
           <CardBody>
             <CardTitle>¿Cómo Unirte a Nosotros?</CardTitle>
             <Card.Text>
-              Para contratar nuestros servicios de internet y televisión, le
-              informamos que <br />
-              solo la instalación del servicio de televisión tiene un costo
-              único de $20,000, <br /> la instalacion de internet no tiene
-              costo, lo que te permite disfrutar de todos nuestros beneficios,
-              Para comenzar simplemente necesitamos una fotocopia de la cédula
-              de la persona que va ser titular del servicio.
+              La instalación de nuestro servicio de internet no tiene costo. Sin
+              embargo, una vez realizada la instalación, deberá cancelar la
+              primera factura generada según el plan que haya elegido. Disfrutar
+              de todos nuestros beneficios, Para comenzar simplemente
+              necesitamos una fotocopia de la cédula de la persona que va ser
+              titular del servicio.
             </Card.Text>
             <br />
             <Card.Text>
               Para garantizar una instalación rápida y eficiente, es importante
-              que nos comparta la ubicación de la vivienda. y una foto de la
+              que nos comparta la ubicación de la vivienda y una foto de la
               plaqueta ubicada en tu hogar, para que nuestros técnicos puedan
               ubicarte sin problemas.
             </Card.Text>

@@ -79,7 +79,7 @@ export const DivDiv = styled.div`
     text-decoration: none;
     margin-bottom: 20px;
     &:hover {
-      color: var(--primary-color);
+      color: var(--fifth-color);
     }
   }
   @media (max-width: 468px) {
