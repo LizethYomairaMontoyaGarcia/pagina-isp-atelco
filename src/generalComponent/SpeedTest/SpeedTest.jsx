@@ -25,9 +25,9 @@ const SpeedTest = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Test | Atelco Alta Velocidad S.A.S Zomac</title>
+        <title>Test | Atelco</title>
         <meta name="description" content="Test de velocidad" />
-        <link rel="canonical" href="https://asotv-vegachi.com/test" />
+        <link rel="canonical" href="https://atelco.net.co/test" />
       </Helmet>
       <Header />
 

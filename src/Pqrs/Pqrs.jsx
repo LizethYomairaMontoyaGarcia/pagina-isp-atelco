@@ -80,7 +80,7 @@ const Pqrs = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>PQRS | Atelco Alta Velocidad S.A.S Zomac</title>
+        <title>PQRS | Atelco</title>
         <link rel="canonical" href="https://atelco.net.co/Pqrs" />
         <meta name="description" content="Prueba de velocidad" />
       </Helmet>

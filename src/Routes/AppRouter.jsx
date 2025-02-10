@@ -20,7 +20,7 @@ const AppRouter = () => {
         <Route path="Normatividad" element={<Normativity />} />
         <Route path="Pqrs" element={<Pqrs />} />
         <Route path="Test" element={<SpeedTest />} />
-        <Route path="termsAndConditions" element={<TermsAndConditions />} />
+        <Route path="TerminosyCondiciones" element={<TermsAndConditions />} />
       </Routes>
     </BrowserRouter>
   );

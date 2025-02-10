@@ -17,7 +17,7 @@ import {
   StyledImageLink,
   StyledContainer,
   DivStyledContainer,
-  DivAccordion
+  DivAccordion,
 } from "./NormativityStyled";
 import Foother from "../generalComponent/footherGeneral/Foother";
 import Accordion from "react-bootstrap/Accordion";
@@ -46,7 +46,7 @@ const Normativity = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Normatividad | AsoTv Vegachi</title>
+        <title>Normatividad | Atelco</title>
         <link rel="canonical" href="https://atelco.net.co/Normatividad" />
         <meta name="description" content="Normas vigentes" />
       </Helmet>

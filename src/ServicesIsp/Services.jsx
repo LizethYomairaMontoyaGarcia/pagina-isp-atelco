@@ -75,8 +75,8 @@ const Services = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Servicos | Atelco Alta Velocidad S.A.S Zomac</title>
-        <link rel="canonical" href="https://atelco.net.co/Servicios" />
+        <title>Servicos | Atelco</title>
+        <link rel="canonical" href="https://atelco.net.co/Servicios"/>
         <meta name="description" content="Nuestros servicios" />
       </Helmet>
       <div>

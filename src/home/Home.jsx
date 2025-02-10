@@ -80,7 +80,7 @@ export const Home = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Inicio | Atelco Alta Velocidad S.A.S Zomac</title>
+        <title>Inicio | Atelco</title>
         <link rel="canonical" href="https://atelco.net.co" />
         <meta name="description" content="Intenet alta velocidad" />
       </Helmet>

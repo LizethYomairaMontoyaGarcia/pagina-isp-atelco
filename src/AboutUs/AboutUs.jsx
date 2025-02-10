@@ -36,7 +36,7 @@ const AboutUs = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Nosotros | Atelco Alta Velocidad S.A.S Zomac</title>
+        <title>Nosotros | Atelco</title>
         <meta name="description" content="¿Quienes somos?" />
         <link rel="canonical" href="https://atelco.net.co/nosotros" />
       </Helmet>

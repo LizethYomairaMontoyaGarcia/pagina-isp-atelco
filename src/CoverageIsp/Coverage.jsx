@@ -13,7 +13,7 @@ const Coverage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Cobertura | Atelco Alta Velocidad S.A.S Zomac</title>
+        <title>Cobertura | Atelco</title>
         <meta name="description" content="Cobertura" />
         <link rel="canonical" href="https://atelco.net.co/Cobertura" />
       </Helmet>
@@ -46,7 +46,7 @@ const Coverage = () => {
       <DivGeneral>
         <DivMpas>
           <iframe
-            src="https://www.google.com/maps/d/embed?mid=1iAYH5m7EHovJwHjnN-MDW_vBphAhwZY&ehbc=2E312F"
+            src="https://www.google.com/maps/d/u/0/embed?mid=1X-MyI-CyDKLebc-REfKOkuR4jz50C4o&ehbc=2E312F"
             title="Google Maps"
           ></iframe>
         </DivMpas>

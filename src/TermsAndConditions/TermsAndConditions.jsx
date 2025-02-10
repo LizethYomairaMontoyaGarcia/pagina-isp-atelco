@@ -17,7 +17,7 @@ const TermsAndConditions = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Términos y condiciones | Atelco Alta Velocidad S.A.S Zomac
+          Términos y condiciones | Atelco
         </title>
         <link
           rel="canonical"
