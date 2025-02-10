@@ -3,7 +3,7 @@ import "./assets/variables/variables.css";
 
 export const ButtonGeneral = styled.button`
   border-radius: 20px;
-  display: inline-block;
+
   padding: 0.5rem 1.3rem;
   background-color: var(--primary-color);
   border: 2px solid transparent;

@@ -61,7 +61,7 @@ const Foother = () => {
         </ContactSection>
       </Div>
       <DivDiv>
-        <a href="/termsAndConditions">
+        <a href="/TerminosyCondiciones">
           Términos y condiciones de la prestación del servicio
         </a>
       </DivDiv>

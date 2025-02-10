@@ -33,7 +33,6 @@ const Services = () => {
   const [planType, setPlanType] = useState("residentPlans");
   const navigate = useNavigate();
   const internetSectionRef = useRef(null);
-  const televisionSectionRef = useRef(null);
   const containerRef = useRef(null);
 
   const scrollToSection = (ref) => {
@@ -42,12 +41,8 @@ const Services = () => {
     }
   };
 
-  const handleNavigate = () => {
-    navigate("/tv");
-  };
-
   const handleNavigateTerms = () => {
-    navigate("/termsAndConditions");
+    navigate("/TerminosyCondiciones");
   };
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -76,7 +71,7 @@ const Services = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Servicos | Atelco</title>
-        <link rel="canonical" href="https://atelco.net.co/Servicios"/>
+        <link rel="canonical" href="https://atelco.net.co/Servicios" />
         <meta name="description" content="Nuestros servicios" />
       </Helmet>
       <div>
@@ -104,9 +99,7 @@ const Services = () => {
                   scrollToSection(internetSectionRef);
                 }}
               >
-                <em>
-                  <strong> Internet</strong>
-                </em>
+                <strong> Internet</strong>
               </ButtonInfo>
             </Contaprincipal>
           </Container>
@@ -114,14 +107,10 @@ const Services = () => {
           <div ref={internetSectionRef}>
             <Conta>
               <ButtonGeneral onClick={() => setPlanType("residentPlans")}>
-                <em>
-                  <strong> Plan Residencial</strong>
-                </em>
+                <strong> Plan Residencial</strong>
               </ButtonGeneral>
               <ButtonGeneral onClick={() => setPlanType("corporatePlan")}>
-                <em>
-                  <strong> Plan Corporativo</strong>
-                </em>
+                <strong> Plan Corporativo</strong>
               </ButtonGeneral>
             </Conta>
 

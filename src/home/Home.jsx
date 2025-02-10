@@ -132,9 +132,7 @@ export const Home = () => {
                     ))}
                   </DivPlans>
                   <ButtonGeneral onClick={toggleModal}>
-                    <em>
-                      <strong> Contratar el servicio</strong>
-                    </em>
+                    Contratar el servicio
                   </ButtonGeneral>
                 </CardItem>
 
@@ -158,9 +156,7 @@ export const Home = () => {
                     ))}
                   </DivPlans>
                   <ButtonGeneral onClick={toggleModal}>
-                    <em>
-                      <strong>Contratar el servicio</strong>
-                    </em>
+                    Contratar el servicio
                   </ButtonGeneral>
                 </CardItem>
               </CardList>
@@ -175,9 +171,7 @@ export const Home = () => {
 
               <Conta>
                 <Button onClick={handleNavigate}>
-                  <em>
-                    <strong> Deseo ver todos los planes </strong>
-                  </em>
+                  <strong> Deseo ver todos los planes </strong>
                 </Button>
               </Conta>
             </Section>
