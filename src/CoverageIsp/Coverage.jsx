@@ -46,7 +46,7 @@ const Coverage = () => {
       <DivGeneral>
         <DivMpas>
           <iframe
-            src="https://www.google.com/maps/d/u/0/embed?mid=1X-MyI-CyDKLebc-REfKOkuR4jz50C4o&ehbc=2E312F"
+            src="https://www.google.com/maps/d/u/6/embed?mid=1TpVGfB6r12dIc9biIk3tuZnXT9MzC_Q&ehbc=2E312F"
             title="Google Maps"
           ></iframe>
         </DivMpas>
