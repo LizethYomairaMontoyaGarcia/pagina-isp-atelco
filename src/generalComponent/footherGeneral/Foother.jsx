@@ -5,7 +5,7 @@ import {
   Div,
   DivDiv,
   Linea,
-  DivImg,
+  FooterBottom,
   Linea2,
 } from "./FootherStyled";
 import whatsaap from "../../assets/img/whatsapp.png";
@@ -72,11 +72,10 @@ const Foother = () => {
       </DivDiv>
 
       <Linea />
-      <DivImg>
-        <strong>
-          <p>Copyright © 2025</p>
-        </strong>
-      </DivImg>
+      <FooterBottom>
+        <p>© ATELCO ALTA VELOCIDAD SAS ZOMAC - 901552604</p>
+        <p>Todos los derechos reservados</p> <p>Colombia - 2025</p>
+      </FooterBottom>
     </FooterContainer>
   );
 };

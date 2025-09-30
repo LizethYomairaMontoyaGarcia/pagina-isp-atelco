@@ -99,21 +99,14 @@ export const Linea = styled.div`
   background-color: #ffffff7b;
 `;
 
-export const DivImg = styled.div`
-  display: flex;
-  align-items: center;
+export const FooterBottom = styled.div`
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
-
-  img {
-    width: 25px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  @media (max-width: 468px) {
-    img {
-      margin-right: 3px;
-      margin-left: 3px;
-    }
+  font-size: 15px;
+  color: #ffffff;
+  p {
+    margin: 3px 0;
   }
 `;
 
@@ -121,5 +114,5 @@ export const Linea2 = styled.div`
   transform: rotate(90deg);
   width: 4cqb;
   height: 1px;
-  background-color: #ffffff7b;
+  background-color: #ffffff;
 `;
